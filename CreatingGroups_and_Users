@@ -1,0 +1,15 @@
+#--creating groups
+#--name of the group: "casa"
+groupadd casa
+
+#--Creasting two users name´s Miguel and Ana
+useradd Miguel
+useradd Ana
+
+#--Agregar usuarios a un grupo
+#--Se agregaran a los usuarios al grupo casa
+adduser Miguel casa
+adduser Ana casa
+
+#--Change name of the group to Familia
+groupmod -n casa Familia
