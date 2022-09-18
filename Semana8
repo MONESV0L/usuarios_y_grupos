@@ -1,0 +1,76 @@
+comandos para la tabla de permisos tarea semana 8
+
+archivo1
+--
+chmod u=rwx,go= archivo1
+--
+archivo2
+---
+chmod u=rw archivo2
+--
+archivo3
+--
+chmod a=rwx archivo3
+--
+archivo4
+--
+chmod u=rwx,g=rw,o=r archivo4
+--
+archivo5
+--
+chmod u=rwx,g=r archivo5
+--
+archivo6
+--
+chmod u=r,g=xrw,o=r archivo6
+--
+archivo7
+--
+chmod u=r,o=x archivo7
+--
+archivo8
+--
+chmod u=rw,g=r,o=r archivo8
+--
+archivo9
+--
+chmod u=rw,g=rw,o=r archivo9
+
+===========
+segunda parte
+===========
+archivo1
+--
+chmod o+r archivo1
+--
+archivo2
+--
+chmod a-r archivo2
+--
+archivo3
+--
+chmod a-x archivo3
+--
+archivo4
+--
+chmod go-r archivo4
+--
+archivo5
+--
+chmod g-r,o+wx archivo5
+--
+archivo6
+--
+chmod u+w,o-r archivo6
+--
+archivo7
+--
+chmod u+w,g+x,o-x,o+w archivo7
+--
+archivo8
+--
+chmod u-rw,g-r archivo8
+--
+archivo9
+--
+chmod u+x,g-rw,o-r archivo9
